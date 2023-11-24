@@ -1,8 +1,6 @@
 #pragma once
 #include <iostream>
 
-//Printese in rotaiiiii
-
 class AudioMP3 {
 	bool loaded = false;
 public:
