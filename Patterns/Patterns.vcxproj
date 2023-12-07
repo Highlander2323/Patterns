@@ -127,15 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Dike.cpp" />
     <ClCompile Include="Patterns.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="Adapter.h" />
     <ClInclude Include="Bridge.h" />
+    <ClInclude Include="Builder.h" />
     <ClInclude Include="Composite.h" />
     <ClInclude Include="Decorator.h" />
     <ClInclude Include="Facade.h" />
+    <ClInclude Include="FactoryMethod.h" />
+    <ClInclude Include="Flyweight.h" />
     <ClInclude Include="Prototype.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

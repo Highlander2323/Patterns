@@ -18,9 +18,6 @@
     <ClCompile Include="Patterns.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Dike.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Prototype.h">
@@ -39,6 +36,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Facade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FactoryMethod.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
