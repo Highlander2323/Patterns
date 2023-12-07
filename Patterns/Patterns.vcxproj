@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dike.cpp" />
     <ClCompile Include="Patterns.cpp" />
   </ItemGroup>
   <ItemGroup>
