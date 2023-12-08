@@ -8,7 +8,10 @@ protected:
     Handler* nextHandler = 0;
 public:
     virtual void handleRequest(const std::string& request) = 0;
-    virtual Handler* setNextHandler(Handler* nextHandler) = 0;
+    Handler* setNextHandler(Handler* handler) {
+        nextHandler = handler;
+        return handler;
+    }
 };
 
 // Concrete handler 
@@ -31,10 +34,6 @@ public:
         }
     }
 
-    Handler* setNextHandler(Handler* handler) {
-        nextHandler = handler;
-        return handler;
-    }
 };
 
 // Concrete handler
@@ -58,10 +57,6 @@ public:
         }
     }
 
-    Handler* setNextHandler(Handler* handler) {
-        nextHandler = handler;
-        return handler;
-    }
 };
 
 
@@ -69,11 +64,6 @@ class CreateRecipeHandler : public Handler{
 public:
     CreateRecipeHandler() {
         nextHandler = nullptr;
-    }
-
-    Handler* setNextHandler(Handler* handler) {
-        nextHandler = handler;
-        return handler;
     }
 
     void handleRequest(const std::string& request) {
