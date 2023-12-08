@@ -53,6 +53,9 @@
     <ClInclude Include="Proxy.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ChainOfResponsibility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Penguin.txt">
