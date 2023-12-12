@@ -89,5 +89,7 @@ public:
 			new AndExp(new OrExp(new VariableExp("a"), new NotExp(new VariableExp("b"))), new Constant(true)));
 
 		std::cout << exp->interpret(ctx);
+
+		delete exp;
 	}
 };
