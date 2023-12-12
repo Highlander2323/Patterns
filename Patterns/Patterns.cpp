@@ -1,6 +1,5 @@
 #include <iostream>
-#include <string>
-#include "Command.h"
+#include "Interpreter.h"
 int main()
 {
     RunThis::go();
