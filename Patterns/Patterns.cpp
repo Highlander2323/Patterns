@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Iterator.h"
+#include "Mediator.h"
 int main()
 {
     RunThis::go();

@@ -65,6 +65,9 @@
     <ClInclude Include="Iterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Penguin.txt">
@@ -77,6 +80,9 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="Cats.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Countries.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
