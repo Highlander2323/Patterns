@@ -145,7 +145,7 @@ void Button::onClick() {
 
 class RunThis {
 public:
-	static void go() {
+	static void Go() {
 		unsigned int n;
 		file >> n;
 		std::string* strings = new std::string[n]();

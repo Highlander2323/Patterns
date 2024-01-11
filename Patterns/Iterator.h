@@ -133,7 +133,7 @@ public:
 
 class RunThis {
 public:
-	static void go() {
+	static void Go() {
 		std::ifstream in("Cats.txt");
 		std::string name, breed;
 		unsigned short age;

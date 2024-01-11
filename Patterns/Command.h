@@ -159,7 +159,7 @@ public:
 //---RUN THIS---
 class RunThis{
 public:
-	static void go() {
+	static void Go() {
 		Executor* exec = new Executor();
 		Menu* menu = new Menu();
 		menu->clickA(exec);

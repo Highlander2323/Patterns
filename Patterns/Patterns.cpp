@@ -2,6 +2,6 @@
 #include "Mediator.h"
 int main()
 {
-    RunThis::go();
+    RunThis::Go();
     return 0;
 }

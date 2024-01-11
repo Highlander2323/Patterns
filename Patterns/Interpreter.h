@@ -78,7 +78,7 @@ class RunThis {
 public:
 
 	// ((a OR b) AND ((a OR not b) AND true))
-	static void go() {
+	static void Go() {
 		Context ctx;
 		ctx.assign("a", false);
 		ctx.assign("b", false);
